@@ -50,3 +50,7 @@ git switch --detach <hash>	Просмотр конкретного коммит�
 git restore file.py	Отменяет незакоммиченные изменения файла
 git restore --staged file.py	Убирает файл из Staged, сохраняя изменения
 git restore --source=<hash> file.py	Восстанавливает файл из конкретного коммита
+
+s
+
+s
