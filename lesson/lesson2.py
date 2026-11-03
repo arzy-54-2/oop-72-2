@@ -12,22 +12,22 @@ class Hero:
 
 # Дочерний класс
 class MageHero(Hero):
-
-    def __init__(self, name, lvl, hp, mp):
-        super().__init__(name, lvl, hp)
-        self.mp = mp
-
-    def cast_spell(self):
-        print(f"{self.name} cast fire bool")
-
-    def action(self):
-        print(f"Name: {self.name} lvl:{self.lvl}")
+    pass
+    # def __init__(self, name, lvl, hp, mp):
+    #     super().__init__(name, lvl, hp)
+    #     self.mp = mp
+    #
+    # def cast_spell(self):
+    #     print(f"{self.name} cast fire bool")
+    #
+    # def action(self):
+    #     print(f"Name: {self.name} lvl:{self.lvl}")
 
 
 
 kirito = Hero("Kirito", 111, 11111)
-gendalf = MageHero("gendalf", 100, 1000, 100)
-gendalf_silver = MageHero("gendalf silver", 100, 1000, 100)
+gendalf = MageHero("gendalf", 100, 1000)
+gendalf_silver = MageHero("gendalf silver", 100, 1000)
 
 # kirito.action()
 # gendalf.action()
