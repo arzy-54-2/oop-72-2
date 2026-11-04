@@ -12,7 +12,7 @@ class BankAccount:
     def __random_pass(self):
         print(self.__password)
         chart = string.ascii_letters + string.digits
-        password = ''.join(random.choice(chart))
+        password = ''.join(random.choice(chart) for i in range(5))
         return password
 
     def reset_pass(self, old_pass):
