@@ -85,3 +85,5 @@ py -m venv name_venv
 python3 -m venv name_venv
 
 скачай сначала colorama
+
+pip install -r requirements.txt
